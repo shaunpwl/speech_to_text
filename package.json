@@ -1,0 +1,16 @@
+{
+  "name": "speech_to_text",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "set GOOGLE_APPLICATION_CREDENTIALS=speech-to-text-289315-680dcaeff9ec.json&& node app/index_short_audio_file.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/speech": "^4.1.2",
+    "caterpillar": "^6.5.0",
+    "ffmpeg": "0.0.4"
+  }
+}
